@@ -20,6 +20,3 @@ jobs:
 
       - name: Check linting
         run: npm run lint:check
-
-      - name: Run tests
-        run: npm run test

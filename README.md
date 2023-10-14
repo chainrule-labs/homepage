@@ -1,3 +1,3 @@
 # Chain Rule Homepage
 
-[chainrule.io](https://www.chainrule.io)
+[chainrule.io](https://chainrule.io)

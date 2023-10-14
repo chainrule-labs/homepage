@@ -1,0 +1,22 @@
+{
+	"theme_color": "#142c44",
+	"background_color": "#142c44",
+	"display": "standalone",
+	"scope": "/",
+	"start_url": "/",
+	"name": "Chain Rule",
+	"short_name": "Chain Rule",
+	"description": "Chain Rule Homepage",
+	"icons": [
+		{
+			"src": "/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/android-chrome-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}

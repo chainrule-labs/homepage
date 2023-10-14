@@ -1,14 +1,11 @@
-import "./globals.css";
+import "../styles/globals.css";
 
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import React from "react";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: "Chain Rule",
-	description: "Chain Rule, LLC Homepage",
+	description: "Chain Rule Homepage",
 };
 
 export default function RootLayout({
@@ -18,7 +15,11 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			<body className={inter.className}>{children}</body>
+			<body className="flex min-h-screen flex-col bg-black text-white">
+				<main className="flex w-full min-w-[300px] flex-1 flex-col items-center">
+					{children}
+				</main>
+			</body>
 		</html>
 	);
 }

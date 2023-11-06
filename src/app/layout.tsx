@@ -8,7 +8,8 @@ import Header from "../components/Header";
 
 export const metadata: Metadata = {
 	title: "Chain Rule",
-	description: "Chain Rule Homepage",
+	description:
+		"We partner with founders to build and ship secure, robust DeFi products across multiple blockchains.",
 };
 
 export default function RootLayout({

@@ -8,26 +8,17 @@ const config = {
 		screens: {
 			xxs: "300px",
 			xs: "365px",
-			sm: "440px",
+			sm: "505px",
 			smd: "552px",
 			md: "768px",
 			lg: "1024px",
 			xl: "1280px",
 		},
 		fontFamily: {
-			"averiaSerifLibre-regular": [
-				"AveriaSerifLibre-Regular",
-				"sans-serif",
-			],
-			"averiaSerifLibre-italic": [
-				"AveriaSerifLibre-Italic",
-				"sans-serif",
-			],
-			"averiaSerifLibre-bold": ["AveriaSerifLibre-Bold", "sans-serif"],
-			"averiaSerifLibre-boldItalic": [
-				"AveriaSerifLibre-BoldItalic",
-				"sans-serif",
-			],
+			"sourceCodePro-regular": ["SourceCodePro-Regular"],
+			"sourceCodePro-italic": ["SourceCodePro-Italic"],
+			"sourceCodePro-bold": ["SourceCodePro-Bold"],
+			"sourceCodePro-boldItalic": ["SourceCodePro-BoldItalic"],
 		},
 		extend: {
 			colors: {

@@ -4,18 +4,19 @@ import React from "react";
 function DefaultMenu() {
 	return (
 		<>
-			<Link href="/about" className="px-2 py-1 hover:text-light-100">
+			<Link className="px-2 py-1 hover:text-primary-200" href="/">
 				About
 			</Link>
-			<Link href="/blog" className="px-2 py-1 hover:text-light-100">
+			<Link className="px-2 py-1 hover:text-primary-200" href="/blog">
 				Blog
 			</Link>
-			<Link href="/work" className="px-2 py-1 hover:text-light-100">
-				Work
-			</Link>
-			<Link href="/contact" className="px-2 py-1 hover:text-light-100">
+			<a
+				className="px-2 py-1 hover:text-primary-200"
+				href={process.env.CONTACT_EMAIL}
+				rel="noopener noreferrer"
+			>
 				Contact
-			</Link>
+			</a>
 		</>
 	);
 }

@@ -20,5 +20,6 @@ module.exports = withPWA({
 		APP_URL: "https://chainrule.io",
 		GITHUB_URL: "https://github.com/chainrule-labs",
 		TWITTER_URL: "https://twitter.com/chainrule_io",
+		CONTACT_EMAIL: "mailto:contact@chainrule.io",
 	},
 });

@@ -4,33 +4,33 @@
 
 /* ********* Custom Font Definition ********* */
 @font-face {
-	font-family: "AveriaSerifLibre-Regular";
-	src: url("/fonts/AveriaSerifLibre-Regular.ttf") format("truetype");
+	font-family: "SourceCodePro-Regular";
+	src: url("/fonts/SourceCodePro-Regular.ttf") format("truetype");
 	font-weight: 400;
 	font-display: swap;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "AveriaSerifLibre-Italic";
-	src: url("/fonts/AveriaSerifLibre-Italic.ttf") format("truetype");
+	font-family: "SourceCodePro-Italic";
+	src: url("/fonts/SourceCodePro-Italic.ttf") format("truetype");
 	font-weight: 400;
 	font-display: swap;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "AveriaSerifLibre-Bold";
-	src: url("/fonts/AveriaSerifLibre-Bold.ttf") format("truetype");
-	font-weight: 700;
+	font-family: "SourceCodePro-Bold";
+	src: url("/fonts/SourceCodePro-ExtraBold.ttf") format("truetype");
+	font-weight: 800;
 	font-display: swap;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "AveriaSerifLibre-BoldItalic";
-	src: url("/fonts/AveriaSerifLibre-BoldItalic.ttf") format("truetype");
-	font-weight: 700;
+	font-family: "SourceCodePro-BoldItalic";
+	src: url("/fonts/SourceCodePro-ExtraBoldItalic.ttf") format("truetype");
+	font-weight: 800;
 	font-display: swap;
 	font-style: normal;
 }
@@ -38,6 +38,19 @@
 
 /* ********* App Font ********* */
 body {
-	font-family: "AveriaSerifLibre-Regular", "sans-serif";
+	/* font-family: "AveriaSerifLibre-Regular", "sans-serif"; */
+	font-family: "SourceCodePro-Regular", Courier, monospace;
 }
 /* **************************** */
+
+/* ********* Custom Selection Color ********* */
+::selection {
+	background-color: #fd67937f; /* primary-100 with 60% opacity */
+	color: #addad5; /* light-200 */
+}
+
+::-moz-selection {
+	background-color: #fd67937f; /* primary-100 with 60% opacity */
+	color: #addad5; /* light-200 */
+}
+/* ****************************************** */

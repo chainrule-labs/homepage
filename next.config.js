@@ -14,9 +14,11 @@ module.exports = withPWA({
 	reactStrictMode: true,
 	env: {
 		// ********* PRIVATE ********* //
-		// Private environment variables here
-		//
+		// PRIVATE_EXAMPLE_VAR: process.env.PRIVATE_EXAMPLE_VAR,
+
 		// ********* PUBLIC ********* //
-		// Public environment variables here
+		APP_URL: "https://chainrule.io",
+		GITHUB_URL: "https://github.com/chainrule-labs",
+		TWITTER_URL: "https://twitter.com/chainrule_io",
 	},
 });

@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ********* Custom Font Definition ********* */
+@font-face {
+	font-family: "AveriaSerifLibre-Regular";
+	src: url("/fonts/AveriaSerifLibre-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "AveriaSerifLibre-Italic";
+	src: url("/fonts/AveriaSerifLibre-Italic.ttf") format("truetype");
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "AveriaSerifLibre-Bold";
+	src: url("/fonts/AveriaSerifLibre-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "AveriaSerifLibre-BoldItalic";
+	src: url("/fonts/AveriaSerifLibre-BoldItalic.ttf") format("truetype");
+	font-weight: 700;
+	font-display: swap;
+	font-style: normal;
+}
+/* ****************************************** */
+
+/* ********* App Font ********* */
+body {
+	font-family: "AveriaSerifLibre-Regular", "sans-serif";
+}
+/* **************************** */

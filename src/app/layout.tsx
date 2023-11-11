@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			<body className="flex min-h-screen flex-col items-center bg-dark-600 text-light-200">
+			<body className="flex min-h-screen flex-col items-center bg-dark-600 text-light-100">
 				<main className="flex w-full min-w-[300px] max-w-3xl flex-1 flex-col items-center">
 					<Header />
 					{children}

@@ -18,6 +18,7 @@ module.exports = withPWA({
 
 		// ********* PUBLIC ********* //
 		APP_URL: "https://chainrule.io",
+		XSAFE_URL: "https://xsafe.chainrule.io",
 		GITHUB_URL: "https://github.com/chainrule-labs",
 		TWITTER_URL: "https://twitter.com/chainrule_io",
 		CONTACT_EMAIL: "mailto:contact@chainrule.io",

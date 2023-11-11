@@ -45,13 +45,28 @@ export default function Home() {
 					cross-chain stablecoin, a cross-chain message relaying
 					system, and a DeFi shorting protocol.
 				</span>
+				<span className="mt-4">
+					Chain Rule actively contributes to and builds open-source
+					projects that accelerate the pace of innovation, regardless
+					of economic incentives. Recently, we built{" "}
+					<a
+						className="text-primary-200 underline underline-offset-4 hover:text-primary-100"
+						href={process.env.XSAFE_URL}
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						xSafe
+					</a>
+					, a tool to simplify multi-chain smart contract deployments
+					to the same address.
+				</span>
 				<h2 className="mb-2 mt-8 font-sourceCodePro-bold text-xl">
 					Contact
 				</h2>
 				<span>
 					<a
-						href={process.env.CONTACT_EMAIL}
 						className="text-primary-200 underline underline-offset-4 hover:text-primary-100"
+						href={process.env.CONTACT_EMAIL}
 					>
 						Get in touch with us
 					</a>{" "}

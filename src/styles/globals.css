@@ -42,15 +42,3 @@ body {
 	font-family: "SourceCodePro-Regular", Courier, monospace;
 }
 /* **************************** */
-
-/* ********* Custom Selection Color ********* */
-::selection {
-	background-color: #fd67937f; /* primary-100 with 60% opacity */
-	color: #addad5; /* light-200 */
-}
-
-::-moz-selection {
-	background-color: #fd67937f; /* primary-100 with 60% opacity */
-	color: #addad5; /* light-200 */
-}
-/* ****************************************** */
